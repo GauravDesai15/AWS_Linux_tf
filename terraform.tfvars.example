@@ -1,0 +1,8 @@
+aws_region   = "eu-west-2"
+project_name = "ec2-basics-lab"
+instance_type = "t3.micro"
+# Leave these null to use AWS Systems Manager Session Manager instead of SSH.
+key_name = null
+ssh_cidr = null
+# Set false if you do not want a public web demo.
+enable_http = true
